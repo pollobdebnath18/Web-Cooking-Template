@@ -1,0 +1,177 @@
+
+
+.part1_left {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    background-color: rgb(231, 250, 254);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.part1_spicy {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -1;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.part1_spicy p {
+    margin: 0;
+    padding-top: 20px;
+    line-height: 1.1;
+
+}
+
+.paragraph {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+/* Button style */
+
+.btn_hot {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -2%;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.btn_hot_child {
+    font-weight: 600;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+
+    background: rgb(255, 255, 255);
+}
+
+.btn2 {
+    display: flex;
+}
+
+.btn2x {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -2%;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.btn2y {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -2%;
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom: 20px;
+
+}
+
+.min {
+    height: 40px;
+    width: 80px;
+    font-weight: normal;
+    border: none;
+    border-radius: 30px;
+    background: rgb(247, 244, 244);
+}
+
+.chicken {
+    height: 40px;
+    width: 80px;
+    font-weight: normal;
+    border: none;
+    border-radius: 30px;
+    background: rgb(247, 244, 244);
+}
+
+.john {
+    display: flex;
+}
+
+.john_btn {
+    display: flex;
+    padding-left: 25px;
+
+}
+
+.john_btn img {
+    height: 60px;
+    width: 80px;
+}
+
+.john_btn {
+    /* text-align: left; */
+    text-align: center;
+}
+
+.john_text {
+    padding-left: 15px;
+    line-height: 7px;
+}
+.john_date{
+    font-size: 14px;
+}
+.john_name{
+    font-weight: bold;
+    font-size: 16px;
+}
+.john_button{
+    display: flex;
+    text-align: center;
+}
+.btn_view_parent {
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.btn_view {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+}
+/* Part1_right */
+
+.right_chicken{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.part1 {
+  display: flex;
+  gap: 0px; /* no gap */
+}
+
+
