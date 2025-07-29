@@ -1,0 +1,65 @@
+.everyone {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 90px;
+    /* padding-right: 100px; */
+    margin-bottom: 5px;
+
+    
+}
+
+.lorem {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 70px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
+.btn4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -2%;
+    text-align: center;
+    border-radius: 16px;
+
+    background: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 130px;
+}
+
+.sheff {
+    width: 400px;
+    height: 380px;
+    background: rgb(255, 255, 255);
+    padding-right: 130px;
+    padding-bottom: 100px;
+    
+    padding: 30px;
+}
+.part4_right{
+    padding-right: 70px;
+}
+.part4_left{
+    padding-left: 50px;
+}
+.part4{
+    display: flex;
+}
