@@ -1,0 +1,62 @@
+.part5_heading {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -10%;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 2px;
+}
+
+.part5_des {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+}
+
+.part5_image {
+    height: 290px;
+    width: 210px;
+}
+
+.part5_four_part {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+}
+
+.part5_check_instagram {
+    background: linear-gradient(180.00deg, rgba(176, 191, 195, 0), rgb(138, 149, 151) 100%);
+}
+
+.part5_btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -2%;
+    text-align: center;
+    padding: 15px;
+    width: 170px;
+    
+    border-radius: 16px;
+
+    background: rgb(0, 0, 0);
+}
+.part5_button{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 35px;
+}
