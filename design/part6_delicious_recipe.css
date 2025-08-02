@@ -1,0 +1,126 @@
+.part6_delicious_recepie {
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.part6_headline {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -4%;
+    text-align: left;
+}
+
+.part6_description {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.part6_upper_part {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+ /* img setting  */
+
+
+.part6_lower_part {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.part6_lower_left,
+.part6_lower_right {
+  flex: 1 1 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.part6_card {
+  width: 250px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.part6_card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.part6_card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.part6_heart_icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.part6_heart_icon:hover {
+  transform: scale(1.1);
+}
+
+.part6_card_content {
+  padding: 14px 16px 18px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.part6_card_content p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+}
+
+.part6_info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: auto;
+  font-size: 14px;
+  color: #444;
+}
+
+.part6_info_item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.part6_info_item i {
+  font-size: 14px;
+}
