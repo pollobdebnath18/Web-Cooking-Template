@@ -1,0 +1,33 @@
+
+.footer_part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    align-items: center;
+    
+}
+footer ul li{
+    list-style: none;
+    padding-right: 40px;
+}
+footer ul a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_first_part{
+    padding-left: 60px;
+}
+.footer_lorem{
+    padding-left: 43px;
+}
+.rights_part{
+    padding-left: 450px;
+}
+.footer_last_part{
+    display: flex;
+    justify-content: space-between;
+}
