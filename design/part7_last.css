@@ -1,0 +1,97 @@
+.part_7_last {
+    height: 400px;
+    width: 1000px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    border-radius: 60px;
+
+    background: rgb(231, 249, 253);
+}
+
+.part7_head {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -4%;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.part7_description {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 260px;
+    padding-right: 260px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.part7_img {
+    height: 120px;
+    width: 200px;
+    border-radius: 60px;
+}
+
+.part7_submit {
+    color: white;
+    padding: 15px;
+    border-radius: 16px;
+
+    background: rgb(0, 0, 0);
+}
+.part7_btn{
+    padding: 20px;
+}
+.part7_lastpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_patha{
+    height: 60px;
+    width: 60px;
+    padding-right: 10px;
+    border-radius: 100px;
+}
+.last_img{
+    /* padding-right: 100px; */
+}
+.part7_btn {
+  display: flex;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(15,23,42,0.05);
+}
+
+.part7_btn input {
+  flex: 1;
+  border: none;
+  padding: 14px 16px; /* inner space */
+  font-size: 1rem;
+  outline: none;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.part7_btn input::placeholder {
+  color: #aab0b8;
+  padding-left: 2px; /* small adjustment if needed */
+}
+
+.part7_submit {
+  border: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
