@@ -1,11 +1,12 @@
-/* nav styles */
+
+/* nav styles Using CSS*/
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    width: 1000px; 
+    width: 1000px;
     margin-left: 60px;
     margin-top: 10px;
     /* border: 1px solid black; */
@@ -13,7 +14,7 @@ nav {
 }
 
 .Foodieland {
-    font-family:Lobster;
+    font-family: Lobster;
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -21,18 +22,22 @@ nav {
     text-align: left;
     margin-left: 40px;
 }
-nav ul a{
+
+nav ul a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-nav ul li{
-    list-style:none;
+
+nav ul li {
+    list-style: none;
     margin-right: 35px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     /* justify-content: space-between; */
 }
+
 .fb {
     height: 26px;
     width: 23px;
@@ -46,7 +51,7 @@ nav ul{
 }
 
 .twiter {
-   height: 26px;
-   width: 23px;
-   margin-right: 50px;
+    height: 26px;
+    width: 23px;
+    margin-right: 50px;
 }
